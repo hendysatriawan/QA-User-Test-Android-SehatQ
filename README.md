@@ -10,5 +10,9 @@ Scenario test :
 2. Login
 3. Edit profile
 
+link video katalon : https://drive.google.com/open?id=1dj8q9uO3HarApAAieAuxpyXLvFFDNXZ5
+
+link video device android : https://drive.google.com/open?id=10xBGUGKHQeiJHbKA6GumstDuyNnBu2Lf
+
 
 
