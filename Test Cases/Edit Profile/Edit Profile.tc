@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Profile</name>
+   <tag></tag>
+   <comment>Story: Edit Profile akun yang login sebelumnya
+run test case login sebelumnya
+run test case login sebelumnya jika belum login
+Buka halaman profile
+cek halaman profile
+Lakukan edit profile
+cek halaman edit profile
+upload foto
+input Tinggi Badan
+input Berat Badan
+input nomor hp
+input alamat
+simpan edit profile
+cek halaman profile</comment>
+   <testCaseGuid>99c264d4-77a1-47d1-85de-cfe8f8b10d20</testCaseGuid>
+   <variable>
+      <defaultValue>'150'</defaultValue>
+      <description></description>
+      <id>36645529-10eb-4743-b47e-4d8ca2c2267d</id>
+      <masked>false</masked>
+      <name>tinggibadan</name>
+   </variable>
+   <variable>
+      <defaultValue>'70'</defaultValue>
+      <description></description>
+      <id>28e4b387-eed9-419f-9a7f-4b21328480ad</id>
+      <masked>false</masked>
+      <name>beratbadan</name>
+   </variable>
+   <variable>
+      <defaultValue>'0812676763633'</defaultValue>
+      <description></description>
+      <id>9ab2f227-5361-4f0f-a9d7-3c75750612af</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+   <variable>
+      <defaultValue>'jl. burung nuri blok A no. 112 '</defaultValue>
+      <description></description>
+      <id>310ca328-2276-45b1-887a-04f7b672719f</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>

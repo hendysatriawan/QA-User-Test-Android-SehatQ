@@ -1,0 +1,105 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 57344
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 57346
+[Appium]   tmpDir: /var/folders/vc/skmtt2_j62x22tlwhnkj1smc0000gq/T//Katalon/Appium/Temp1580341926023
+[Appium] Appium REST http interface listener started on 0.0.0.0:57344
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 23 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/hendy.satriawan_gue/Downloads/sehatq-doctor-consultation-online-appointment_1.0.7.apk","noReset":true,"deviceName":"samsung SM-J510FN (Android 7.1.1)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.1.1","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"49ffe4aa","systemPort":57374},"capabilities":{"firstMatch":[{"appium:app":"/Users/hendy.satriawan_gue/Downloads/sehatq-doctor-consultation-online-appointment_1.0.7.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-J510FN (Android 7.1.1)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.1","appium:systemPort":57374,"appium:udid":"49ffe4aa"}]}}
+[BaseDriver] The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   app: /Users/hendy.satriawan_gue/Downloads/sehatq-doctor-consultation-online-appointment_1.0.7.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: samsung SM-J510FN (Android 7.1.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platformVersion: 7.1.1
+[Appium]   systemPort: 57374
+[Appium]   udid: 49ffe4aa
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[BaseDriver] Using local app '/Users/hendy.satriawan_gue/Downloads/sehatq-doctor-consultation-online-appointment_1.0.7.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/hendy.satriawan_gue/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/hendy.satriawan_gue/.katalon/tools/android_sdk/build-tools/28.0.0
+[ADB] Using adb from /Users/hendy.satriawan_gue/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 49ffe4aa
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/hendy.satriawan_gue/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/hendy.satriawan_gue/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/hendy.satriawan_gue/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/hendy.satriawan_gue/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/hendy.satriawan_gue/.katalon/tools/android_sdk/build-tools/28.0.0/apkanalyzer. Do you have the Android SDK installed at '/Users/hendy.satriawan_gue/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/hendy.satriawan_gue/.katalon/tools/android_sdk/build-tools/28.0.0/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.she.sehatq'
+[ADB] Main activity name: 'com.she.sehatq.view.intro.SplashActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/hendy.satriawan_gue/.katalon/tools/android_sdk/build-tools/28.0.0/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 545 strings from '/Users/hendy.satriawan_gue/Downloads/sehatq-doctor-consultation-online-appointment_1.0.7.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 49ffe4aa shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.she.sehatq/com.she.sehatq.view.intro.SplashActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 803aa0a1-4c13-4491-a194-4e0bbdd3137b added to master session list
+[HTTP] <-- POST /wd/hub/session 200 48840 ms - 1277
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b 200 32 ms - 1209
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b 200 36 ms - 1209
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 63 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/timeouts
+[HTTP] {"implicit":60000}
+[HTTP] <-- POST /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/timeouts 200 4 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e7ec750a-c7b8-4ca1-bd26-a8a29df00a35 with 803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/source 200 213 ms - 3093
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/screenshot 200 2909 ms - 170040
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId e7ec750a-c7b8-4ca1-bd26-a8a29df00a35 with 803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/source 200 172 ms - 12208
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b/screenshot 200 375 ms - 79836
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b
+[HTTP] {}
+[Appium] Removing session 803aa0a1-4c13-4491-a194-4e0bbdd3137b from our master session list
+[HTTP] <-- DELETE /wd/hub/session/803aa0a1-4c13-4491-a194-4e0bbdd3137b 200 2350 ms - 14
+[HTTP] 

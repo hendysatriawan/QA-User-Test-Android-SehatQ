@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <comment>Story: Register User Baru
+Register dengan data dummy (pakai faker)
+definisikan package dari profile
+masuk halaman onboarding &amp; pilih skip
+cek halaman home
+masuk ke halaman login
+cek halaman login
+cek halaman input login
+cek halaman register &amp; lakukan register
+create data dummy dengan faker
+input nama lengkap
+input email
+input password
+check agree
+lanjutkan
+halaman lengkapi profile
+pilih tanggal lahir
+pilih jenis kelamin
+klik lanjut
+cek berhasil register - harus ada menu profile di footer menu</comment>
+   <testCaseGuid>85d4f3d3-7186-4c5f-9e20-e5771c818078</testCaseGuid>
+</TestCaseEntity>
